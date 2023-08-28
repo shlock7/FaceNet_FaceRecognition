@@ -48,10 +48,23 @@
 
 
 
+### 主页面
 
+![image](https://github.com/Nero-iwnl/FaceNet_FaceRecognition/blob/main/programImages/main.png)
 
+### 人脸录入
 
+![image](https://github.com/Nero-iwnl/FaceNet_FaceRecognition/blob/main/programImages/input_name.png)
 
+![image](https://github.com/Nero-iwnl/FaceNet_FaceRecognition/blob/main/programImages/input_face.png)
 
+![image](https://github.com/Nero-iwnl/FaceNet_FaceRecognition/blob/main/programImages/input_local.png)
 
+### 签到
+
+![image](https://github.com/Nero-iwnl/FaceNet_FaceRecognition/blob/main/programImages/sign_in.png)
+
+### 签到记录
+
+![image](https://github.com/Nero-iwnl/FaceNet_FaceRecognition/blob/main/programImages/signinrecord.png)
 
