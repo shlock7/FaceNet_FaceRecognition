@@ -19,13 +19,20 @@
 
 ## 二、利用faceNet 实现两张图片距离向量的计算
 `train_facenet`文件夹是对`facenet`源码的copy，其中包括了训练模型的代码，根据自己的理解加了注释。
+
 （1）`facenet.py` facenet源码，定义了相关函数。
+
 （2）`cal_128XVector_user_facenet.py` 文件是根据`facenet.py`文件里相关函数，计算出两张图片的`distance`：
-      1、`build_facenet_model（）`函数： 是建立faceNet模型用的。
-      2、`cal_128_vector（）`函数： 就是计算一张图片的`distance`向量  计算结果会产生128维向量。 
-      3、`cal_dist（）`函数： 计算两个数组的方差和 ，是根据这个结果来衡量两张图片的相似度。
-      4、`save_data_to_csv()`:将采集的图片放到 csv 文件中` label `作为该数据的标签，后面可以通过标签来判别识别的人脸的属性。
-      5、`cal_dist_from_csv（）`：输入一个128维的向量，与已经存在csv的数据对比 ，输出结果是该图片向量与CSV文件中相似的图片的`distance`和标签
+
+​      1、`build_facenet_model（）`函数： 是建立faceNet模型用的。
+
+​      2、`cal_128_vector（）`函数： 就是计算一张图片的`distance`向量  计算结果会产生128维向量。 
+
+​      3、`cal_dist（）`函数： 计算两个数组的方差和 ，是根据这个结果来衡量两张图片的相似度。
+
+​      4、`save_data_to_csv()`:将采集的图片放到 csv 文件中` label `作为该数据的标签，后面可以通过标签来判别识别的人脸的属性。
+
+​      5、`cal_dist_from_csv（）`：输入一个128维的向量，与已经存在csv的数据对比 ，输出结果是该图片向量与CSV文件中相似的图片的`distance`和标签
 
 
 ## 三、collect_frame_to_csv.py 这个文件主要实现了将人脸图像存储到本地csv文件中的功能。
